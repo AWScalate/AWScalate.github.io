@@ -1,0 +1,16 @@
+---
+title: awscalate
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  escalations:
+    output: true
+
+defaults:
+  - scope:
+      path: '_escalations'
+    values:
+      layout: permission
